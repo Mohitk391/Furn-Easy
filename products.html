@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://mhp-easy-ui.netlify.app/components/component-styles.css">
     <link rel="stylesheet" href="/products.css">
 </head>
 <body>
@@ -29,26 +30,96 @@
             </div>
             <div class="category-section">
                 <div class="title">Category</div>
-                <input type="checkbox" id="category-checkbox"><label for="category-checkbox">Sofa</label>
-                <input type="checkbox" id="category-checkbox"><label for="category-checkbox">Bed</label>
+                <ul class="list-none">
+                    <li><input type="checkbox" id="category-checkbox"><label for="category-checkbox">Sofa</label></li>
+                    <li><input type="checkbox" id="category-checkbox"><label for="category-checkbox">Bed</label></li>
+                </ul>
             </div>
             <div class="rating-section">
                 <div class="title">Rating</div>
-                <input type="radio" name="rating-radio" id="5-stars"><label for="5-stars">5 Stars</label>
-                <input type="radio" name="rating-radio" id="4-stars"><label for="4-stars">4 stars</label>
-                <input type="radio" name="rating-radio" id="3-stars"><label for="3-stars">3 Stars</label>
-                <input type="radio" name="rating-radio" id="2-stars"><label for="2-stars">2 stars</label>
-                <input type="radio" name="rating-radio" id="1-stars"><label for="1-stars">1 Stars</label>
+                <ul class="list-none">
+                    <li><input type="radio" name="rating-radio" id="5-stars"><label for="5-stars">5 Stars</label></li>
+                    <li><input type="radio" name="rating-radio" id="4-stars"><label for="4-stars">4 stars</label></li>
+                    <li><input type="radio" name="rating-radio" id="3-stars"><label for="3-stars">3 Stars</label></li>
+                    <li><input type="radio" name="rating-radio" id="2-stars"><label for="2-stars">2 stars</label></li>
+                    <li><input type="radio" name="rating-radio" id="1-stars"><label for="1-stars">1 Stars</label></li>
+                
+                </ul>
             </div>
             <div class="sort-section">
                 <div class="title">Sort By</div>
-                <input type="radio" name="sort-radio" id="high-to-low"><label for="high-to-low">Price - High to Low</label>
-                <input type="radio" name="sort-radio" id="low-to-high"><label for="low-to-high">Price - Low to High</label>
+                <ul class="list-none">
+                <li><input type="radio" name="sort-radio" id="high-to-low"><label for="high-to-low">Price - High to Low</label></li>
+                <li><input type="radio" name="sort-radio" id="low-to-high"><label for="low-to-high">Price - Low to High</label></li>
+                
+            </ul>
             </div>
         </aside>
         <section class="main-body">
             <div class="products">
-                <div class="products-title"></div>    
+                <div class="products-title">Showing All Products</div>
+                <div class="product-section">
+                    <div class="card">
+                        <div class="image">
+                            <img src="/assets/sofa-1.jpeg" alt="card-image">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-title">Sofa</div>
+                            <div class="card-sub-title">Rs. 4000</div>
+                            <div class="footer flex flex-center">
+                                    <div class="product-card-button">
+                                        <button class="card-button-accept">Add To Cart</button>
+                                        <button class="card-button-accept">Add To Wishlist</button>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="/assets/sofa-1.jpeg" alt="card-image">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-title">Sofa</div>
+                            <div class="card-sub-title">Rs. 4000</div>
+                            <div class="footer flex flex-center">
+                                    <div class="product-card-button">
+                                        <button class="card-button-accept">Go To Cart</button>
+                                        <button class="card-button-accept">Add To Wishlist</button>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="/assets/sofa-1.jpeg" alt="card-image">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-title">Sofa</div>
+                            <div class="card-sub-title">Rs. 4000</div>
+                            <div class="footer flex flex-center">
+                                    <div class="product-card-button">
+                                        <button class="card-button-accept">Add To Cart</button>
+                                        <button class="card-button-accept">Remove From Wishlist</button>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image">
+                            <img src="/assets/sofa-1.jpeg" alt="card-image">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-title">Sofa</div>
+                            <div class="card-sub-title">Rs. 4000</div>
+                            <div class="footer flex flex-center">
+                                    <div class="product-card-button">
+                                        <button class="card-button-accept">Add To Cart</button>
+                                        <button class="card-button-accept">Add To Wishlist</button>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
             </div>
         </section>
     </main>
