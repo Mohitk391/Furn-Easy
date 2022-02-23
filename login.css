@@ -1,0 +1,47 @@
+@import url(/global-styles.css);
+
+.main {
+    background-color: var(--off-white);
+    width: 100vw;
+    height: 100vh;
+}
+
+.login-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.login-details{
+    padding: 1.5rem;
+    background-color: var(--clr-white);
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.login-button{
+    padding: 0.5rem 0;
+    border: none;
+    border-radius: 1rem;
+    background-color: var(--cart-blue);
+    color: var(--clr-white);
+    cursor: pointer;
+}
+.login-details input{
+    margin: 1rem;
+}
+
+.new-acc{
+    text-decoration: none;
+    color: var(--clr-black);
+    text-align: center;
+}
