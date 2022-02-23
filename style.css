@@ -1,0 +1,103 @@
+@import url(/global-styles.css);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem 1.5rem;    
+    background-color: var(--clr-white);
+    box-shadow: 0 3px 5px -3px var(--clr-black);
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.nav-bar-logo{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.nav-bar-buttons{
+    width: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.login{
+    width: fit-content;
+    padding: 0 1rem;
+    background-color: var(--clr-grey);
+    border: none;
+    border-radius: 2rem;
+    color: var(--clr-white);
+}
+
+.nav-bar-icon {
+    font-size: 1.5rem;
+    color: var(--clr-black);
+}
+
+.main {
+    background-color: var(--off-white);
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas:
+        "main-products"
+        "main-large-info";
+}
+
+.main-products{
+    display: flex;
+    margin: 3rem;
+    gap: 2rem;
+}
+
+.card-text-overlay{
+    width:fit-content;
+    height: fit-content;
+    position: relative;
+    opacity: 0.9;
+}
+
+.text-overlay{
+    position: absolute;
+    top: 4rem;
+    background-color: var(--clr-white);
+    width: 18rem;
+    text-align: center;
+    color: var(--clr-grey);
+}
+
+.main-large-info{
+    margin: 0 3rem; 
+    justify-self: center;
+    position: relative;
+    
+}
+.main-large-info img{
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.show-products{
+    position: absolute;
+    width: fit-content;
+    padding: 1rem;
+    right: 40%;
+    top: 40%;
+    background-color: var(--clr-grey);
+    border: none;
+    border-radius: 2rem;
+    color: var(--clr-white);
+}
+
+.show-products:hover{
+    background-color: var(--clr-white);
+    color: var(--clr-grey);
+}
