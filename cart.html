@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FURN-EASY / Cart</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://mhp-easy-ui.netlify.app/components/component-styles.css">
+    <link rel="stylesheet" href="/cart.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <a class="nav-bar-logo" href="/index.html">FURN-EASY</a>
+        <input type="nav-bar-search" placeholder="Search"/>
+        <div class="nav-bar-buttons">
+            <button class="login">Logout</button>
+            <a href="/wishlist.html" class="nav-bar-icon"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+            <a href="/cart.html" class="nav-bar-icon"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+            <a  href="#" class="nav-bar-icon"><i class="fa fa-user" aria-hidden="true"></i></a>
+        </div>
+    </nav>
+    <div class="main">
+        <h2 class="cart-title">My Cart</h2>
+        <div class="cart-body">
+            <div class="card">
+                <div class="image">
+                    <img src="/assets/sofa-1.jpeg" alt="card-image">
+                </div>
+                <div class="card-content">
+                    <div class="card-title">Sofa</div>
+                    <div class="card-sub-title">Rs. 4000</div>
+                    <div class="card-quantity">Quantity: <i class="fa fa-minus-circle" aria-hidden="true"></i>1<i class="fa fa-plus-circle" aria-hidden="true"></i> </div>
+                    <div class="footer flex flex-center">
+                            <div class="product-card-button">
+                                <button class="card-button-cart">Go To Cart</button>
+                                <button class="card-button-wishlist">Remove From Wishlist</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-price-details">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="cart-price-title">Price Details</div>
+                        <hr class="line-break"/>
+                        <div class="cart-price-content">
+                            <div class="cart-price-items">
+                                <ul class="list-none">
+                                    <li>Price(2 items)</li>
+                                    <li>Discount</li>
+                                    <li>Delivery Charges</li>
+                                </ul>
+                            </div>
+                            <div class="cart-price-values">
+                                <ul class="list-none">
+                                    <li>Rs. 4000</li>
+                                    <li>Rs. 1000</li>
+                                    <li>Rs.  500</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr class="line-break"/>
+                        <div class="cart-price-content">
+                            <div class="cart-price-title">
+                                Total Amount
+                            </div>
+                            <div class="cart-price-title">
+                                Rs. 3500
+                            </div>
+                        </div>
+                        <hr class="line-break"/>
+                        <button class="card-button-cart">Place Order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
