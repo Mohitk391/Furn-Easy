@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furn-Easy / Products</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/products.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <a class="nav-bar-logo" href="/index.html">FURN-EASY</a>
+        <input type="nav-bar-search" placeholder="Search"/>
+        <div class="nav-bar-buttons">
+            <button class="login">Login</button>
+            <a href="/wishlist.html" class="nav-bar-icon"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+            <a href="/cart.html" class="nav-bar-icon"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+            <a  href="#" class="nav-bar-icon"><i class="fa fa-user" aria-hidden="true"></i></a>
+        </div>
+    </nav>
+    <main class="main">
+        <aside class="filter">
+            <div class="filter-title-section">
+                <div class="title section-title">Filters</div>
+                <button class="clear-filter-button">Clear</button>
+            </div>
+            <div class="category-section">
+                <div class="title">Category</div>
+                <input type="checkbox" id="category-checkbox"><label for="category-checkbox">Sofa</label>
+                <input type="checkbox" id="category-checkbox"><label for="category-checkbox">Bed</label>
+            </div>
+            <div class="rating-section">
+                <div class="title">Rating</div>
+                <input type="radio" name="rating-radio" id="5-stars"><label for="5-stars">5 Stars</label>
+                <input type="radio" name="rating-radio" id="4-stars"><label for="4-stars">4 stars</label>
+                <input type="radio" name="rating-radio" id="3-stars"><label for="3-stars">3 Stars</label>
+                <input type="radio" name="rating-radio" id="2-stars"><label for="2-stars">2 stars</label>
+                <input type="radio" name="rating-radio" id="1-stars"><label for="1-stars">1 Stars</label>
+            </div>
+            <div class="sort-section">
+                <div class="title">Sort By</div>
+                <input type="radio" name="sort-radio" id="high-to-low"><label for="high-to-low">Price - High to Low</label>
+                <input type="radio" name="sort-radio" id="low-to-high"><label for="low-to-high">Price - Low to High</label>
+            </div>
+        </aside>
+        <section class="main-body">
+            <div class="products">
+                <div class="products-title"></div>    
+            </div>
+        </section>
+    </main>
+</body>
+</html>

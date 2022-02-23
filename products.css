@@ -1,0 +1,37 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem 1.5rem;    
+    background-color: white;
+    box-shadow: 0 3px 5px -3px #000;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.nav-bar-logo{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.nav-bar-buttons{
+    width: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.login{
+    width: fit-content;
+    padding: 0 1rem;
+    background-color: gray;
+    border: none;
+    border-radius: 2rem;
+    color: white;
+}
+
+.nav-bar-icon {
+    font-size: 1.5rem;
+    color: black;
+}
